@@ -130,7 +130,7 @@ Hyperparamètres tabulaires (Q-Learning & SARSA) :
 
 DQN (Stable-Baselines3) :
 
-* entraînement sur 20000 timesteps
+* entraînement sur 50000 timesteps
 * replay buffer + exploration ε (paramètres visibles dans le notebook : `buffer_size=50000`, `learning_starts=1000`, `batch_size=32`, `exploration_fraction=0.2`, `exploration_final_eps=0.05`, `seed=42`)
 
 ### 4.2 Métriques utilisées
