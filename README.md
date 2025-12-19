@@ -92,9 +92,6 @@ Terminaison :
 
 ### 3.3 DQN (approximation, replay buffer)
 
-**Pourquoi l’inclure malgré FrozenLake petit :**
-
-* Objectif pédagogique : implémenter un algo “Deep RL” standard.
 * Montre la différence entre :
 
   * tabulaire (exact, petit état),
