@@ -156,7 +156,7 @@ Les valeurs ci-dessous proviennent des sorties du notebook et des fichiers sauve
 * **SARSA** : moyenne sur les **100 derniers épisodes** = **0.28**
   (fichier : `results/rewards/sarsa_rewards.npy`)
 
-* **DQN** : moyenne des **évaluations périodiques** = **1.1481**
+* **DQN** : moyenne des **évaluations périodiques** = **0.751**
   (fichier : `results/rewards/dqn_eval_mean_rewards.npy`, 10 points)
 
 Important : le DQN est entraîné avec `shaped=True`, donc **récompense densifiée**, expliquant un score moyen potentiellement > 1 et une comparaison directe avec Q-Learning/SARSA (sans shaping) qui n’est pas strictement équitable.
@@ -167,7 +167,7 @@ Variance calculée dans le notebook :
 
 * **Variance Q-Learning** (sur les 500 derniers épisodes) : **0.240396**
 * **Variance SARSA** (sur les 500 derniers épisodes) : **0.228096**
-* **Variance DQN** (sur les points d’évaluation) : **1.02135809**
+* **Variance DQN** (sur les points d’évaluation) : **0.43**
 
 Interprétation :
 
