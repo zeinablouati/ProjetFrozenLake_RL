@@ -140,7 +140,7 @@ Dans le notebook, la comparaison finale est faite via :
 * **Score moyen** sur une fenêtre finale / série d’évaluations
 * **Variance** (proxy de stabilité)
 
-> Remarque M2 (honnête) : idéalement, on ferait une moyenne ± écart-type sur plusieurs **seeds d’entraînement**. Ici, on s’appuie sur un run principal (seed=42) + variances observées sur les séries sauvegardées.
+> Remarque  : idéalement, on ferait une moyenne ± écart-type sur plusieurs **seeds d’entraînement**. Ici, on s’appuie sur un run principal (seed=42) + variances observées sur les séries sauvegardées.
 
 ---
 
